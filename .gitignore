@@ -1,1 +1,74 @@
+# --- repo-specific ---
 config.sh
+
+# Ignore release blobs (we attach these to GitHub Releases, not Git)
+payloads/
+*.tar
+*.tar.gz
+*.tar.zst
+*.zip
+*.zst
+
+# Logs / scratch
+*.log
+*.tmp
+*.temp
+*~
+
+# --- OS cruft ---
+.DS_Store
+._*
+Icon?
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+.history/
+*.sublime-*
+*.swp
+*.swo
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.eggs/
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.cache/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.pyre/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Virtualenvs / env files
+.venv/
+venv/
+env/
+env.bak/
+.env
+.env.*
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Node (if any sneaks in) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*

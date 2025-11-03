@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: WGU OSMT Skills Dataset
+message: Please cite this dataset if you use it.
+authors:
+  - family-names: Trim
+    given-names: Craig
+version: 2025.11.03
+date-released: 2025-11-03
+keywords: [WGU, OSMT, RSD, skills, dataset]

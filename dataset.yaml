@@ -1,0 +1,41 @@
+name: wgu-osmt-skills-collections
+version: "2025.11.01"
+description: >
+  Canonicalized OSMT (WGU) collection CSVs with stable filenames
+  (collection-<slug>_vYYYY.MM.DD.csv). Integrity manifests and compressed
+  release payloads included.
+
+provenance:
+  source_org: Western Governors University — Open Skills Management Tool (OSMT)
+  source_url: https://osmt.wgu.edu/
+  acquired_on: 2025-11-01
+  notes: "Filenames normalized; content otherwise verbatim."
+
+contents:
+  - path: collections/*.csv
+    kind: collection-csv
+    schema: "As exported by OSMT (verbatim)."
+  - path: skills/
+    kind: per-skill-json
+    optional: true
+    note: "Per-skill JSONs referenced by collections."
+
+integrity:
+  manifests:
+    collections: manifests/collections.sha256
+    skills: manifests/skills.sha256
+    payloads: manifests/payloads.sha256
+
+distribution:
+  - file: payloads/collections_v2025.11.01.tar.zst
+    sha256: 5b8aaeb8fe054cc7b0101f5f7f985795b520726a9a2e85d51fe99d34ee6f353e
+  - file: payloads/skills_v2025.11.01.tar.zst
+    sha256: 88eef335b09119ffd09403bcf144c5d8f2c156d87c3addafb5fec18b4755b5ca
+
+licensing:
+  repo_license: "MIT (code/docs only) — see LICENSE"
+  data_license: "Upstream OSMT/WGU terms — see LICENSE-DATA.md"
+
+maintainer:
+  name: Craig Trim
+  repo: "https://github.com/craigtrim/wgu-osmt-skills-dataset"
