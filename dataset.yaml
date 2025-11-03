@@ -6,7 +6,7 @@ description: >
   release payloads included.
 
 provenance:
-  source_org: Western Governors University — Open Skills Management Tool (OSMT)
+  source_org: Western Governors University ; Open Skills Management Tool (OSMT)
   source_url: https://osmt.wgu.edu/
   acquired_on: 2025-11-01
   notes: "Filenames normalized; content otherwise verbatim."
@@ -33,8 +33,8 @@ distribution:
     sha256: 88eef335b09119ffd09403bcf144c5d8f2c156d87c3addafb5fec18b4755b5ca
 
 licensing:
-  repo_license: "MIT (code/docs only) — see LICENSE"
-  data_license: "Upstream OSMT/WGU terms — see LICENSE-DATA.md"
+  repo_license: "MIT (code/docs only). See LICENSE"
+  data_license: "Upstream OSMT/WGU terms. See LICENSE-DATA.md"
 
 maintainer:
   name: Craig Trim

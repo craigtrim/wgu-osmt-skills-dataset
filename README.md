@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/github/license/craigtrim/wgu-osmt-skills-dataset.svg)](./LICENSE)
 [![Version](https://img.shields.io/badge/version-2025.11.01-blue.svg)](https://github.com/craigtrim/wgu-osmt-skills-dataset/releases/tag/v2025.11.01)
 [![Downloads](https://img.shields.io/github/downloads/craigtrim/wgu-osmt-skills-dataset/total.svg)](https://github.com/craigtrim/wgu-osmt-skills-dataset/releases)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.TBD.svg)](https://doi.org/10.5281/zenodo.TBD)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17516404.svg)](https://doi.org/10.5281/zenodo.17516404)
 
 Canonicalized exports from Western Governors University’s **Open Skills Management Tool (OSMT)**, distributed as **compressed payloads only** (no raw sources in Git). Filenames were normalized prior to archiving; file contents are otherwise verbatim. 📦🗜️
 
@@ -11,14 +11,14 @@ Canonicalized exports from Western Governors University’s **Open Skills Manage
 
 ## What’s in this repo
 
-- `payloads/collections_v2025.11.01.tar.zst` — all collection CSVs (normalized names).
-- `payloads/skills_v2025.11.01.tar.zst` — per-skill JSON (optional set), same normalization policy.
-- `manifests/payloads.sha256` — SHA-256 checksums for the payload files above.
-- `dataset.yaml` — machine-readable metadata (version, provenance, distribution).
-- `LICENSE` — MIT (applies to repo code/docs only).
-- `LICENSE-DATA.md` — data attribution; upstream OSMT/WGU terms govern.
-- `CITATION.cff` — citation metadata.
-- `NOTICE` — attribution notice.
+- `payloads/collections_v2025.11.01.tar.zst`; all collection CSVs (normalized names).
+- `payloads/skills_v2025.11.01.tar.zst`; per-skill JSON (optional set), same normalization policy.
+- `manifests/payloads.sha256`; SHA-256 checksums for the payload files above.
+- `dataset.yaml`; machine-readable metadata (version, provenance, distribution).
+- `LICENSE`; MIT (applies to repo code/docs only).
+- `LICENSE-DATA.md`; data attribution; upstream OSMT/WGU terms govern.
+- `CITATION.cff`; citation metadata.
+- `NOTICE`; attribution notice.
 
 > **Note:** The original raw files (`collections/*.csv`, `skills/**/*.json`) are **not** tracked in Git. This repo intentionally ships only the compressed payloads plus metadata.
 
@@ -97,8 +97,8 @@ gtar --sort=name --owner=0 --group=0 --numeric-owner \
 
 ## Licensing
 
-- **Code & docs:** MIT — see `LICENSE`. ✅  
-- **Data:** Subject to OSMT/WGU’s original terms — see `LICENSE-DATA.md`.  
+- **Code & docs:** MIT. See `LICENSE`. ✅  
+- **Data:** Subject to OSMT/WGU’s original terms. See `LICENSE-DATA.md`.  
   This repository does **not** grant additional rights to the data beyond upstream terms. 🔐
 
 ---
@@ -109,7 +109,7 @@ Please cite using `CITATION.cff` or this BibTeX (update DOI once minted):
 
 ```
 @dataset{wgu_osmt_collections_2025_11_01,
-  title   = {WGU OSMT Skills — Collections (payload-only)},
+  title   = {WGU OSMT Skills ; Collections (payload-only)},
   version = {2025.11.01},
   author  = {Trim, Craig},
   year    = {2025},
