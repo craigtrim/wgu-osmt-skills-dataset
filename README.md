@@ -1,6 +1,11 @@
 # WGU OSMT Skills — Collections (payload-only, v2025.11.01)
 
-Canonicalized exports from Western Governors University’s **Open Skills Management Tool (OSMT)**, distributed as **compressed payloads only** (no raw sources in Git). Filenames were normalized prior to archiving; file contents are otherwise verbatim.
+[![License](https://img.shields.io/github/license/craigtrim/wgu-osmt-skills-dataset.svg)](./LICENSE)
+[![Version](https://img.shields.io/badge/version-2025.11.01-blue.svg)](https://github.com/craigtrim/wgu-osmt-skills-dataset/releases/tag/v2025.11.01)
+[![Downloads](https://img.shields.io/github/downloads/craigtrim/wgu-osmt-skills-dataset/total.svg)](https://github.com/craigtrim/wgu-osmt-skills-dataset/releases)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.TBD.svg)](https://doi.org/10.5281/zenodo.TBD)
+
+Canonicalized exports from Western Governors University’s **Open Skills Management Tool (OSMT)**, distributed as **compressed payloads only** (no raw sources in Git). Filenames were normalized prior to archiving; file contents are otherwise verbatim. 📦🗜️
 
 ---
 
@@ -26,16 +31,18 @@ Canonicalized exports from Western Governors University’s **Open Skills Manage
 - Upstream source: https://osmt.wgu.edu/  
 - Normalization: filenames only (e.g., `collection-<slug>_vYYYY.MM.DD.csv`); no content edits.
 
-Details are also recorded in `dataset.yaml`.
+Details are also recorded in `dataset.yaml`. 🧾
 
 ---
 
 ## Download
 
-Clone the repo and use the payloads directly from `payloads/`. Or attach these files to a GitHub Release for easier download.
+Grab the assets from the GitHub Release:  
+- **Release page:** https://github.com/craigtrim/wgu-osmt-skills-dataset/releases/tag/v2025.11.01  
+- `payloads/collections_v2025.11.01.tar.zst`  
+- `payloads/skills_v2025.11.01.tar.zst`  
 
-- `payloads/collections_v2025.11.01.tar.zst`
-- `payloads/skills_v2025.11.01.tar.zst`
+Or clone the repo and use the payloads directly from `payloads/`. 📥
 
 ---
 
@@ -90,15 +97,15 @@ gtar --sort=name --owner=0 --group=0 --numeric-owner \
 
 ## Licensing
 
-- **Code & docs:** MIT — see `LICENSE`.
+- **Code & docs:** MIT — see `LICENSE`. ✅  
 - **Data:** Subject to OSMT/WGU’s original terms — see `LICENSE-DATA.md`.  
-  This repository does **not** grant additional rights to the data beyond upstream terms.
+  This repository does **not** grant additional rights to the data beyond upstream terms. 🔐
 
 ---
 
 ## Citation
 
-Please cite using `CITATION.cff` or this BibTeX:
+Please cite using `CITATION.cff` or this BibTeX (update DOI once minted):
 
 ```
 @dataset{wgu_osmt_collections_2025_11_01,
@@ -106,7 +113,8 @@ Please cite using `CITATION.cff` or this BibTeX:
   version = {2025.11.01},
   author  = {Trim, Craig},
   year    = {2025},
-  url     = {https://github.com/craigtrim/wgu-osmt-skills-dataset}
+  url     = {https://github.com/craigtrim/wgu-osmt-skills-dataset},
+  doi     = {10.5281/zenodo.TBD}
 }
 ```
 
@@ -114,4 +122,4 @@ Please cite using `CITATION.cff` or this BibTeX:
 
 ## Contact / Takedown
 
-If you are a rights holder requesting changes or removal, open a GitHub issue on this repository or contact the maintainer listed in `dataset.yaml`.
+If you are a rights holder requesting changes or removal, open a GitHub issue on this repository or contact the maintainer listed in `dataset.yaml`. 🙏
