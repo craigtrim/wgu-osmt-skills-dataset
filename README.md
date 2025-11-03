@@ -1,4 +1,4 @@
-# WGU OSMT Skills — Collections (payload-only, v2025.11.01)
+# WGU OSMT Skills
 
 [![License](https://img.shields.io/github/license/craigtrim/wgu-osmt-skills-dataset.svg)](./LICENSE)
 [![Version](https://img.shields.io/badge/version-2025.11.01-blue.svg)](https://github.com/craigtrim/wgu-osmt-skills-dataset/releases/tag/v2025.11.01)
